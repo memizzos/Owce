@@ -12,6 +12,11 @@
 
 <body>
     <div class="container">
+            <div class="jumbotron">
+                    <input type="text" class="form-control" id="sheep-name" placeholder="imię">
+
+                    <button class="btn btn-primary btn-lg" id="szukaj" type="button">Szukaj</button>
+                  </div>
         <table class="table" id="owce">
             <thead>
                 <tr>
@@ -24,26 +29,16 @@
                     <th scope="col"># of Legs</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>Elianna</td>
-                    <td>white</td>
-                    <td>0</td>
-                    <td>false</td>
-                    <td>true</td>
-                    <td>0 Km/h</td>
-                    <td>5</td>
-                </tr>
-
-                <tr>
-                    <td>Angel</td>
-                    <td>red</td>
-                    <td>0</td>
-                    <td>false</td>
-                    <td>true</td>
-                    <td>0 Km/h</td>
-                    <td>6</td>
-                </tr>
+            <tbody id="owce">
+                    <tr>
+                            <td>Name</td>
+                            <td>Color</td>
+                            <td>Age</td>
+                            <td>Can sweam?</td>
+                            <td>Is happy</td>
+                            <td>Max speed</td>
+                            <td>Number of Legs</td>
+                        </tr>
             </tbody>
 
         </table>
@@ -60,8 +55,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <script src="randomSheeps.js"></script>
     <script src="./randomSheeps.js"></script>
+    <script src="./scripts.js"></script>
 </body>
 
 </html>
